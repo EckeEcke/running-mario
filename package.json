@@ -1,6 +1,6 @@
 {
   "name": "running-mario",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "animation of a mario character running across the bottom of your screen",
   "main": "index.js",
   "scripts": {
