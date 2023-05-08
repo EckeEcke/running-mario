@@ -1,0 +1,16 @@
+{
+  "name": "running-mario",
+  "version": "1.0.6",
+  "description": "animation of a mario character running across the bottom of your screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mario",
+    "animation",
+    "fun"
+  ],
+  "author": "Christian Eckardt",
+  "license": "ISC"
+}
