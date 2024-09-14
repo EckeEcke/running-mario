@@ -1,13 +1,14 @@
 {
   "name": "running-mario",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "animation of a mario character running across the bottom of your screen",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "assets"
+  ],
   "keywords": [
-    "mario",
+    "super mario",
     "animation",
     "fun"
   ],
