@@ -11,7 +11,7 @@ function runMario() {
     const mario = `
       <div id="running-mario">
         <div class="position-relative">
-          <img id="mario" src=${marioSprites}>
+          <img id="mario" src="https://eckeecke.github.io/images/mariosprites-walking.png">
         </div>
       </div>
     `
@@ -57,7 +57,7 @@ function runMario() {
     setInterval(animateMario, 102)
     
     // add sound on click
-    const marioSound = new Audio(marioSoundSrc)
+    const marioSound = new Audio("https://eckeecke.github.io/sounds/mario_its_me.wav")
 
     function itsMeMario(){
       marioSound.volume = 0.2
@@ -92,6 +92,6 @@ function runMario() {
     head.appendChild(stylesheet)
 }
 
-module.exports = runMario
+export default runMario
 
 
