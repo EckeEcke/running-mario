@@ -1,10 +1,17 @@
+
+
 function runMario() {
+
+    // assets
+    const marioSprites = new URL('../assets/mariosprites-walking.png', import.meta.url)
+    const marioSoundSrc = new URL('', import.meta.url)
+
     // add Mario
     const marioContainer = document.createElement("div")
     const mario = `
       <div id="running-mario">
         <div class="position-relative">
-          <img id="mario" src="../assets/mariosprites-walking.png">
+          <img id="mario" src=${marioSprites}>
         </div>
       </div>
     `
@@ -50,7 +57,7 @@ function runMario() {
     setInterval(animateMario, 102)
     
     // add sound on click
-    const marioSound = new Audio("../assets/mario_its_me.wav")
+    const marioSound = new Audio(marioSoundSrc)
 
     function itsMeMario(){
       marioSound.volume = 0.2
