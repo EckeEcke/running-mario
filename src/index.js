@@ -2,10 +2,6 @@
 
 function runMario() {
 
-    // assets
-    const marioSprites = new URL('../assets/mariosprites-walking.png', import.meta.url)
-    const marioSoundSrc = new URL('', import.meta.url)
-
     // add Mario
     const marioContainer = document.createElement("div")
     const mario = `
